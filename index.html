@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dotted Matrix CSS3</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <style>
+    /* Free image from Pixabay: https://pixabay.com/photo-1282293/ */
+    .background-image {
+        background: url('http://i.imgur.com/hbHyq2s.jpg') no-repeat center center;
+        background-size: cover;
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        top:0;
+    }
+    .dot-matrix {
+        background: url('pixel.svg') repeat;
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top: 0;
+    }
+    #content {
+        background: rgba(255, 255, 255, 0.9);
+        position: relative;
+        z-index: 1;
+        margin: 20vh;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        text-align: center;
+        color: #444;
+        padding: 2em;
+    }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <h1>Dotted Matrix CSS3</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec posuere facilisis venenatis. Aliquam eleifend sapien eget orci condimentum, a sagittis augue porta. Vivamus bibendum sed diam vitae lobortis. Praesent venenatis, nulla eget vestibulum laoreet, mauris velit suscipit tellus, vehicula rutrum diam lectus at justo. Curabitur auctor odio in lacus finibus laoreet. Vestibulum non tristique nunc, non aliquet nibh. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    </div>
+    <div class="background-image"></div>
+    <div class="dot-matrix"></div>
+</body>
+</html>
